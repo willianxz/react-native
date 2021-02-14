@@ -1,0 +1,57 @@
+Para começar um novo projeto react native SEM EXPO:
+- Abra o terminal e digite:
+react-native init QualquerNomeParaOProjeto
+
+Entre no projeto
+cd QualquerNomeParaOProjeto
+
+Execute o comando:
+react-native run-android
+
+Se não for reconhecido o comando, procure verificar se você está com algum emulador de celular aberto(pois é necessario ter algum rodando), depois verifique se você tem o react nativo instalado globalmente, use o comando:
+npm install -g react-native-cli
+
+Tente novamente rodar o projeto com o comando:
+react-native run-android
+Qualquer coisa use o comando:
+react-native start
+
+
+
+ATENÇÃO ESSES PROJETO QUE TEM TODAS AS LETRAS MINUSCULAS SÃO PROJETOS EM VERSÕES ANTIGAS SEM EXPO.
+-------------------------------------------
+
+
+Para criar um novo projeto com react native usando EXPO:
+
+Instale o comando para criar novos projetos:
+(se já instalou isso desconsidere)
+npm install -g create-react-native-app
+
+Instale o expo como comando global:
+npm install --global expo-cli
+
+Agora basta criar um novo projeto:
+create-react-native-app HelloWorld
+
+Use esse comando a baixo para entrar na pasta do projeto:
+cd HelloWorld
+
+Digite o comando:
+expo start
+
+OBS: Antes de usar o comando do expo start, você tem que estar com o apache rodando, para que o localhost funcione e também é preciso o projeto estar dentro da pasta onde seja executado o localhost.
+
+
+Continuando...
+Abra no navegador a URL que o expo está falando que rodou o DevTools, ex:
+http://localhost:19002
+
+No navegador escolha onde você quer rodar o projeto em algum simulador de celular ou no seu próprio celular.
+
+Para rodar em seu próprio celular você deve instalar o Expo App e escanear o QRCode que aparece, dessa forma o código passara a rodar em seu celular de forma sincronizada.
+
+OBS: Se você tentar rodar pela web, irá dar problema, pois o aplicativo foi feito para celular. 
+
+
+
